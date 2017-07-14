@@ -3,7 +3,7 @@
 /**
 * readLog.php
 */
-$APIKEY  ='0d7911b21219f2d73e0a56abb164318e';
+$APIKEY  ='CHANGE_API_KEY';
 $WEBHOST = 'emoncms.jodaille.org';
 $oParseLog = new ParseLog($APIKEY, $WEBHOST);
 

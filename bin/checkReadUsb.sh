@@ -42,7 +42,7 @@ else
   echo $SHELL
   echo $NOW starting readLog $readLogCount >> $LOGFILE
 #        ~/bin/readLog.php
-  /usr/bin/screen -Sdm readLog -s ~/bin/readLog.php 
+  /usr/bin/screen -Sdm readLog -s ~/bin/logToEmoncms.sh 
 
   echo "launching screen readLog"
 fi
